@@ -1,7 +1,6 @@
 package logic3;
 import java.util.Scanner;
 public class CountFactorValue {
-
 	public static void main(String[] args) {
 			// TODO Auto-generated method stub
 		    System.out.println("Enter the values:");
@@ -11,7 +10,6 @@ public class CountFactorValue {
 			for(int i=0;i<ps.length;i++) {
 				ps[i]=i*i;
 			}
-
 			int arr [] = new int[num+1];
 			int count = 0;
 			for(int i=1;i<num-1;i++) {
@@ -36,7 +34,5 @@ public class CountFactorValue {
 				}
 			}
 			System.out.println(count);
-			
-		}
-
+			}
 	}
